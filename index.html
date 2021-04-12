@@ -108,12 +108,34 @@
                 <label for = "Cloudy"> Cloudy</label><br>
                 <input type = "submit" value = "Confirm"> <br>
 
-                <label for="entry">Journal Entry Content</label>
+                <label for="entry">Journal Entry Content</label><br>
                 <textarea id="entry" name="entry" rows="4" cols="50">
                 </textarea>
                 <br>
-                <input type="submit" value="Submit">
-</form>
+                <input type="submit" value="Confirm"><br>
+                
+                <label for="people">Choose your least favorite person of the day</label>
+                <input list="people" name="people" id="people">
+                <datalist id="people">
+                <option value="Henry">
+                <option value="Leila">
+                <option value="Sam">
+                <option value="Zoie">
+                </datalist>
+                <br>
+                <input type="submit" value = "Confirm"> <br>
+
+                <label for="food">Choose one food you ate:</label>
+                <select name="food" id="food">
+                  <option value="soup">Soup</option>
+                  <option value="rice">Rice</option>
+                  <option value="chicken">Chicken</option>
+                  <option value="none">None of the above</option>
+                </select>
+                <br>
+                <input type="submit" value="Submit"> <br>
+
+                <button type="button" onclick = "alert('Submitted!')">Submit journal entry</button>
             </fieldset>
         </form>
 

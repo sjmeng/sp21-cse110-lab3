@@ -5,10 +5,6 @@
             Terrible Awful Journal
         </title>
         <br>
-        <details>
-            <summary> Super Secret Stuff</summary>
-            <p> The platypus is one of the two remaining egg-laying mammals living today</p>
-        </details>
 
         <link rel = "favicon" href = "https://github.com/sjmeng/Lab2/blob/master/images/kirby.jpg?raw=true">
         <meta name = "author" content = "Sarah Meng">
@@ -93,15 +89,40 @@
 
         <form>
             <fieldset>
-                <label for = "date">Date:</label><br>
-                <input type="text" id = "date" name = "date"><br>
+                <label for = "sline">Subject line:</label><br>
+                <input type="text" id = "sline" name = "sline"><br>
+                <input type="date" id="start" name="start"
+                         min="2021-01-01" max="2021-12-31">
+                <h4>What Happened</h4>
                 <input type = "checkbox" id = "happy" name = "happy">
                 <label for ="happy"> Good day</label><br>
-                <input type = "checkbox" id = "sad" name = "sad"> <br>
-                <label for = "sad">Bad day</label><br>
-                <input type = "submit" value = "Confirm">
+                <input type = "checkbox" id = "improve" name = "improve">
+                <label for = "improve">Improved myself</label><br>
+                <input type = "submit" value = "Confirm"> <br>
+                <h4>Weather</h4>
+                <input type = "radio" id = "Sunny" name = "Sunny">
+                <label for = "Sunny"> Sunny</label><br>
+                <input type = "radio" id = "Rainy" name = "Rainy">
+                <label for = "Rainy"> Rainy</label><br>
+                <input type = "radio" id = "Cloudy" name = "Cloudy">
+                <label for = "Cloudy"> Cloudy</label><br>
+                <input type = "submit" value = "Confirm"> <br>
+
+                <label for="entry">Journal Entry Content</label>
+                <textarea id="entry" name="entry" rows="4" cols="50">
+                </textarea>
+                <br>
+                <input type="submit" value="Submit">
+</form>
             </fieldset>
         </form>
+
+
+
+        <details>
+            <summary> Super Secret Stuff</summary>
+            <p> The platypus is one of the two remaining egg-laying mammals living today</p>
+        </details>
 
         </main>
     

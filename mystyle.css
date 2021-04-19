@@ -129,7 +129,7 @@ h2{                                                     /*display*/
 } 
 
 div + p{
-    color:lightcoral;                               /*adjacent sibling combinator*/                               
+    color:indianred;                               /*adjacent sibling combinator*/                               
 }
 
 summary ~ p {

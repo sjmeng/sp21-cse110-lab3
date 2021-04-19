@@ -10,13 +10,31 @@ header{
 }
 
 p{
-    width: 80vw;
-    margin: 50px 30px 50px 30px;
-    padding: 20vh;
+    width: 50vw;
+    margin: 20px 10px 20px 10px;
+    padding: 10vh;
     border-style: solid;
-    border-width: 10vmax;
+    border-width: 5vmax;
     border-color: rgb(220,214,186);
     border-radius: 1em;
 
 }
+
+form{
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-left: 20pt;
+    margin-right: 20pt;
+
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+#reminder{
+height: 0.5in;
+width: 4in;
+}
+
 

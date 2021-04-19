@@ -49,8 +49,13 @@ a:active{
     font-size: 130%;                   /*highlighting hovered links*/
 }
 
+.button{
+    background-color: white;
+    color: black;
+}
+
 .button:hover{
-    color:violet;                /*highlighting active links*/
+    background-color: violet;           /*highlighting active links*/
 }
 
 #ad{                              /*creating adblock notification for "position" req*/

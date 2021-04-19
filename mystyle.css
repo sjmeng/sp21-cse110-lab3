@@ -1,6 +1,6 @@
+
 body {
     background-color: oldlace;
-    font-family: 'Montserrat', sans-serif;
     color: #28243E;
     text-align: center;
 }
@@ -138,4 +138,8 @@ summary ~ p {
 
 h4.sel{
     background-color:aliceblue;                      /*combining two selectors*/
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;              /*universal selector*/
 }

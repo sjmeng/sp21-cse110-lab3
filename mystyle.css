@@ -9,7 +9,7 @@ header{
     text-decoration: underline overline;        /* decorating page title*/
 }
 
-p{                                          /* formatting general journal entries */
+p{                                              /* formatting general journal entries */
     margin: 5px 20vw 5px 25vw;
     padding: 5vh;
     border-style: solid;
@@ -20,7 +20,7 @@ p{                                          /* formatting general journal entrie
 }
 
 form{
-    margin-top: 5pt;                        /*customizing mock journal entry*/
+    margin-top: 5pt;                            /*customizing mock journal entry*/
     margin-bottom: 5pt;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -44,7 +44,7 @@ margin:auto;
 }
 
 a:active{
-    font-size: 130%;                   /*highlighting hovered links*/
+    font-size: 130%;                      /*changing font size when link is activated + pseudo-class*/
 }
 
 .button{
@@ -53,10 +53,10 @@ a:active{
 }
 
 .button:hover{
-    background-color: violet;           /*highlighting active links*/
+    background-color: violet;           /*highlighting submit button when hovering*/
 }
 
-#ad{                              /*creating adblock notification for "position" req*/
+#ad{                                      /*creating adblock notification for "position" req*/
 position: fixed;
 top: 0;
 width: 500px;
@@ -64,7 +64,7 @@ border: 3px solid red;
 }
 
 ol,ul{
-    border-style: dotted;               /*customizing lists to match paragraphs*/
+    border-style: dotted;                 /*customizing lists to match paragraphs*/
     border-width: 0.5vmax;
     border-color:hsl(48,46,88);
     border-radius: 1em;
@@ -76,32 +76,31 @@ ol,ul{
 }
 
 
-h2{
+h2{                                                     /*display*/
     display: block;
 }
 
-#audio{
+#audio{                                                 /*display*/
     display:inline;
 }
 
-.grids{
+.grids{                                                 /*grid*/
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 2px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     background-color: thistle;
-    margin: 5px;
     justify-content: center;
   }
   
-  .grids > div {
+  .grids > div {                                        /*child combinator*/
       background-color: wheat;
       padding: 3px;
       
   }
 
-  .flexbox {
+  .flexbox {                                          /*flexbox*/
     display: flex;
     background-color:thistle;
     flex-direction: row;
@@ -115,28 +114,28 @@ h2{
     text-align:center;
   }
 
-  @media only screen and (max-width: 200px){
+  @media only screen and (max-width: 200px){          /*responsiveness*/
       body{
-          background-color:white;
+          background-color:white;               
       }
   }
 
-  a[title]{
-      color:tomato;
+  [title~= "end"]{
+      border-color:burlywood;                               /*attribute selector*/                                       
   }
 
-  body header{
-    text-decoration: underline;
+  body h2{
+    text-decoration: underline;                        /*descendant combinator*/
 } 
 
-p + strong{
-    color:lightcoral;
+div + p{
+    color:lightcoral;                               /*adjacent sibling combinator*/                               
 }
 
-details ~ p {
-    text-decoration: underline wavy cadetblue;
+summary ~ p {
+    text-decoration: underline wavy cadetblue;      /*general sibling combinator*/
 }
 
 h4.sel{
-    background-color:aliceblue;
+    background-color:aliceblue;                      /*combining two selectors*/
 }

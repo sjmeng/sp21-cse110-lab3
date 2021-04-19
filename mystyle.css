@@ -128,8 +128,8 @@ h2{                                                     /*display*/
     text-decoration: underline;                        /*descendant combinator*/
 } 
 
-body + header{
-    color:indianred;                               /*adjacent sibling combinator*/                               
+p + h4{
+    color:saddlebrown;                               /*adjacent sibling combinator*/                               
 }
 
 summary ~ p {

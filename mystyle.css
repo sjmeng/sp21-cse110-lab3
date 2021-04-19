@@ -89,12 +89,12 @@ h2{
 
 .grids{
     display: grid;
-    grid-template-columns: 80px 80px 80px;
+    grid-template-columns: auto auto auto;
     padding: 2px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     background-color: thistle;
-    margin: 150px;
+    margin: 200px;
     justify-content: center;
   }
   
@@ -114,7 +114,7 @@ h2{
 
   .flexbox > div {
     background-color:wheat;
-    margin: 150px;
+    margin: 200px;
     text-align:center;
   }
 

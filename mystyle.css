@@ -82,15 +82,17 @@ h2{
     display:inline;
 }
 
-.grid{
+.grids{
     display: grid;
     grid-template-columns: auto auto auto;
-    padding: 6px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    padding: 2px;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+    background-color: thistle;
   }
 
-  .flex {
+  .flexbox {
     display: flex;
-    background-color:rosybrown;
+    background-color:thistle;
+    /*ADD FEATURES*/
   }

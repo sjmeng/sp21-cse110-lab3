@@ -1,6 +1,7 @@
-*{
+/**{
     text-align: center;
 }
+*/
 body {
     background-color: oldlace;
     font-family: 'Montserrat', sans-serif;
@@ -24,7 +25,7 @@ p{                                          /* formatting general journal entrie
 form{
     margin-top: 5pt;                        /*customizing mock journal entry*/
     margin-bottom: 5pt;
-    margin-left: 25vw;
+    margin-left: 20vw;
     margin-right: 20vw;
 
     padding-top: 10pt;
@@ -90,9 +91,13 @@ h2{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 2px;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
     background-color: thistle;
+  }
+  
+  .grids > div {
+      background-color: wheat;
   }
 
   .flexbox {

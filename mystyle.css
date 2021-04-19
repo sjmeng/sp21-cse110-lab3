@@ -1,7 +1,7 @@
-/**{
-    text-align: center;
+*{
+    padding: 4px;
 }
-*/
+
 body {
     background-color: oldlace;
     font-family: 'Montserrat', sans-serif;
@@ -106,4 +106,9 @@ h2{
     flex-direction: row;
     flex-wrap: wrap;
     align-items:center;
+  }
+
+  .flexbox > div {
+    background-color:wheat;
+    margin: 5px;
   }

@@ -2,6 +2,7 @@ body {
     background-color: oldlace;
     font-family: 'Montserrat', sans-serif;
     color: #28243E;
+    text-align: center;
 }
 
 header{ 
@@ -15,7 +16,6 @@ p{                                          /* formatting general journal entrie
     border-width: 0.5vmax;
     border-color: rgb(220,214,186);
     border-radius: 1em;
-    text-align: center;
 
 }
 
@@ -35,7 +35,6 @@ form{
     border-color: hsl(48,46,88);
     border-radius: 1em;
 
-    text-align: center;
 }
 
 #reminder{                              
@@ -95,8 +94,8 @@ h2{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     background-color: thistle;
-    margin: 40px;
-    justify-items: center;
+    margin: 150px;
+    justify-content: center;
   }
   
   .grids > div {
@@ -115,12 +114,12 @@ h2{
 
   .flexbox > div {
     background-color:wheat;
-    margin: 40px;
+    margin: 150px;
     text-align:center;
   }
 
-  @media only screen and (max-width: 500px){
+  @media only screen and (max-width: 400px){
       body{
-          background-color: white;
+          background-color:white;
       }
   }

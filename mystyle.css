@@ -87,7 +87,7 @@ h2{
 
 .grids{
     display: grid;
-    grid-template-columns: 30px 30px 30px;
+    grid-template-columns: 80px 80px 80px;
     padding: 2px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -105,7 +105,7 @@ h2{
     background-color:thistle;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items:center;
+    justify-content: center;
   }
 
   .flexbox > div {

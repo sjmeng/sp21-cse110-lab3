@@ -75,9 +75,6 @@ ol,ul{
     color:sienna;
 }
 
-h1,h2,h3,h4{
-    text-align:center;
-}
 
 h2{
     display: block;
@@ -94,7 +91,7 @@ h2{
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     background-color: thistle;
-    margin: 200px;
+    margin: 5px;
     justify-content: center;
   }
   
@@ -109,17 +106,37 @@ h2{
     background-color:thistle;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
   }
 
   .flexbox > div {
     background-color:wheat;
-    margin: 200px;
+    margin: 5px;
     text-align:center;
   }
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 200px){
       body{
           background-color:white;
       }
   }
+
+  a[title]{
+      color:tomato;
+  }
+
+  body header{
+    text-decoration: underline;
+} 
+
+p + strong{
+    color:lightcoral;
+}
+
+details ~ p {
+    text-decoration: underline wavy cadetblue;
+}
+
+h4.sel{
+    background-color:aliceblue;
+}

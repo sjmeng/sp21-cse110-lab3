@@ -77,7 +77,9 @@ ol,ul{
     color:sienna;
 }
 
-
+h1,h2,h3,h4{
+    text-align:center;
+}
 
 h2{
     display: block;
@@ -104,11 +106,10 @@ h2{
     display: flex;
     background-color:thistle;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items:center;
   }
 
   .flexbox > div {
     background-color:wheat;
     margin: 5px;
+    text-align:center;
   }

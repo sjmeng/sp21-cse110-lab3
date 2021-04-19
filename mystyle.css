@@ -1,11 +1,10 @@
 *{
-    font-size: 13px;
+    text-align: center;
 }
 body {
     background-color: oldlace;
     font-family: 'Montserrat', sans-serif;
     color: #28243E;
-    text-align: center;
 }
 
 header{ 
@@ -25,7 +24,7 @@ p{                                          /* formatting general journal entrie
 form{
     margin-top: 5pt;                        /*customizing mock journal entry*/
     margin-bottom: 5pt;
-    margin-left: 35vw;
+    margin-left: 25vw;
     margin-right: 20vw;
 
     padding-top: 10pt;
@@ -99,5 +98,7 @@ h2{
   .flexbox {
     display: flex;
     background-color:thistle;
-    /*ADD FEATURES*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
   }

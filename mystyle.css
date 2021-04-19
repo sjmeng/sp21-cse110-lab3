@@ -1,5 +1,6 @@
 *{
     padding: 4px;
+    text-align: center;
 }
 
 body {
@@ -91,7 +92,7 @@ h2{
 
 .grids{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 50px 50px 50px;
     padding: 2px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;

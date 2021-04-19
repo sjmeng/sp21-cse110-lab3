@@ -1,8 +1,3 @@
-*{
-    padding: 4px;
-    text-align: center;
-}
-
 body {
     background-color: oldlace;
     font-family: 'Montserrat', sans-serif;
@@ -92,7 +87,7 @@ h2{
 
 .grids{
     display: grid;
-    grid-template-columns: 50px 50px 50px;
+    grid-template-columns: 30px 30px 30px;
     padding: 2px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -101,12 +96,15 @@ h2{
   
   .grids > div {
       background-color: wheat;
+      
   }
 
   .flexbox {
     display: flex;
     background-color:thistle;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
   }
 
   .flexbox > div {
